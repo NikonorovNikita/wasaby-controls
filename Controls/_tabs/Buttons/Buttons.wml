@@ -1,4 +1,6 @@
-<div class="controls-Tabs controls-Tabs_theme_{{_options.theme}} {{_options.tempFix_1180388539 ? 'tempFix_1180388539' }}">
+<div class="controls-Tabs controls-Tabs_theme_{{_options.theme}}
+            controls-Tabs_style-{{_options.style}}-theme_{{_options.theme}}
+            {{_options.tempFix_1180388539 ? 'tempFix_1180388539' }}">
     <div class="controls-Tabs-wrapper">
         <ws:for data="index, item in _items">
             <div attr:class="{{_prepareItemClass(item, index)}}"

@@ -148,20 +148,24 @@ define([
                theme: 'default'
             },
             expected = 'controls-Tabs__item controls-Tabs__item_theme_default ' +
+               'controls-Tabs__item_style-additional-theme_default ' +
                'controls-Tabs__item_align_left controls-Tabs__item_align_left_theme_default' +
                ' controls-Tabs__item_extreme controls-Tabs__item_extreme_theme_default ' +
                'controls-Tabs__item_extreme_first controls-Tabs__item_extreme_first_theme_default ' +
                'controls-Tabs__item_notShrink',
             expected2 = 'controls-Tabs__item controls-Tabs__item_theme_default' +
+               ' controls-Tabs__item_style-additional-theme_default' +
                ' controls-Tabs__item_align_right controls-Tabs__item_align_right_theme_default' +
                ' controls-Tabs__item_default controls-Tabs__item_default_theme_default' +
                ' controls-Tabs__item_type_photo controls-Tabs__item_type_photo_theme_default ' +
                'controls-Tabs__item_notShrink',
             expected3 = 'controls-Tabs__item controls-Tabs__item_theme_default ' +
+               'controls-Tabs__item_style-additional-theme_default ' +
                'controls-Tabs__item_align_right controls-Tabs__item_align_right_theme_default' +
                ' controls-Tabs__item_default controls-Tabs__item_default_theme_default' +
                ' controls-Tabs__item_canShrink',
             expected4 = 'controls-Tabs__item controls-Tabs__item_theme_default ' +
+               'controls-Tabs__item_style-additional-theme_default ' +
                'controls-Tabs__item_align_right controls-Tabs__item_align_right_theme_default' +
                ' controls-Tabs__item_extreme controls-Tabs__item_extreme_theme_default' +
                ' controls-Tabs__item_extreme_last controls-Tabs__item_extreme_last_theme_default' +

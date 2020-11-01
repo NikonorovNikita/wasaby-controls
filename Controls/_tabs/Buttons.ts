@@ -54,7 +54,7 @@ export interface ITabsOptions extends ITabsButtonsOptions, ITabsTemplateOptions 
  * @mixes Controls/interface:IItems
  * @mixes Controls/_tabs/interface/ITabsButtons
  * @mixes Controls/tabs:ITabsTemplateOptions
- * 
+ *
  * @public
  * @author Красильников А.С.
  * @demo Controls-demo/Tabs/Buttons
@@ -131,7 +131,8 @@ class TabsButtons extends Control<ITabsOptions> implements ITabsButtons, IItems,
     protected _prepareItemClass(item: Model, index: number): string {
         const order: number = this._itemsOrder[index];
         const options: ITabsButtonsOptions = this._options;
-        const classes: string[] = ['controls-Tabs__item controls-Tabs__item_theme_' + options.theme];
+        const classes: string[] = ['controls-Tabs__item controls-Tabs__item_theme_' + options.theme +
+        ' controls-Tabs__item_style-' + options.style + '-theme_' + options.theme];
 
         const itemAlign: string = item.get('align');
         const align: string = itemAlign ? itemAlign : 'right';

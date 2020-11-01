@@ -1,9 +1,10 @@
 <div class="root {{_options.theme !== 'default' ? ' root__dark_background'}}">
-    <div class="separator">Прижатые к правому краю</div>
+    <div class="separator">Прижатые к правому краю, style = primaryAccent</div>
     <div class="demo-TabButtons ControlsDemo-Tabs__rightAlign">
         <Controls.tabs:Buttons
                       bind:selectedKey='SelectedKey1'
                       keyProperty="id"
+                      style="primaryAccent"
                       items="{{_items}}"
         />
     </div>
